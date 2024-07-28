@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+  }
+  header {
+    background-color: #dc3545;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+  header img {
+    max-width: 100px;
+    vertical-align: middle;
+  }
+
+  .content {
+    padding: 20px;
+    text-align: center;
+  }
+  .content img {
+    max-width: 80%;
+    margin: 20px auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+  }
+  .section {
+    margin: 10px 6px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .section-g{
+    width: 610px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 20px;
+    transition: color 0.3s ease;
+  }
+  .social-icons a:hover {
+    color: #ffcc00;
+  }

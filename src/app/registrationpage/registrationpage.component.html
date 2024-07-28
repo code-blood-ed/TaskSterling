@@ -1,0 +1,123 @@
+<div class="">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+      <a class="navbar-brand mx-3" href="#">
+        <img src="{{imgSrc}}" width="40" height="40" alt="" >
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" routerLink='/'>Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/gallery">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/gallery">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Login</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+<div class="registration-container">
+  <header></header>
+    <div class="form-container">
+      <h2>Registration Page</h2>
+      <form>
+
+        <div class="row">
+            <div class="form-group col-6">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+            </div>
+
+            <div class="form-group col-6">
+                <label for="dob">DOB:</label>
+                <input type="date" id="dob" name="dob">
+            </div>
+        </div>
+
+       <div class="row">
+        <div class="form-group col-8">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+          </div>
+          <div class="form-group col-4">
+            <label for="contact">Contact:</label>
+            <input type="text" id="contact" name="contact">
+          </div>
+       </div>
+        
+
+       <div class="row">
+        <div class="form-group col-6">
+            <label for="father-name">Father Name:</label>
+            <input type="text" id="father-name" name="father-name">
+          </div>
+          <div class="form-group col-6">
+            <label for="mother-name">Mother Name:</label>
+            <input type="text" id="mother-name" name="mother-name">
+          </div>
+       </div>
+       
+       <div class="row">
+        <div class="form-group col-6">
+            <label for="contact-number-1">Contact Number 1:</label>
+            <input type="text" id="contact-number-1" name="contact-number-1">
+          </div>
+          <div class="form-group col-6">
+            <label for="contact-number-2">Contact Number 2:</label>
+            <input type="text" id="contact-number-2" name="contact-number-2">
+          </div>
+       </div>
+       
+        <div class="row">
+            <div class="form-group col-6">
+                <label for="tenth-total-mark">10th Total Mark:</label>
+                <input type="text" id="tenth-total-mark" name="tenth-total-mark">
+              </div>
+              <div class="form-group col-6">
+                <label for="twelfth-total-mark">12th Total Mark:</label>
+                <input type="text" id="twelfth-total-mark" name="twelfth-total-mark">
+              </div>
+        </div>
+
+        <div class="row">
+            <div class="form-group col-4">
+                <label for="physics-mark">Physics Mark:</label>
+                <input type="text" id="physics-mark" name="physics-mark">
+              </div>
+              <div class="form-group col-4">
+                <label for="chemistry-mark">Chemistry Mark:</label>
+                <input type="text" id="chemistry-mark" name="chemistry-mark">
+              </div>
+              <div class="form-group col-4">
+                <label for="maths-mark">Maths Mark:</label>
+                <input type="text" id="maths-mark" name="maths-mark">
+              </div>
+        </div>
+        
+        <div class="form-group">
+          <label for="twelfth-mark-sheet">12th Mark Sheet:</label>
+          <input type="file" id="twelfth-mark-sheet" name="twelfth-mark-sheet">
+        </div>
+        <div class="button-group">
+          <button type="submit" class="btn-submit" (click)="functionSb()">Submit</button>
+          <button type="reset" class="btn-reset mx-2">Reset</button>
+        </div>
+      </form>
+    </div>
+
+    <footer>
+      
+    </footer>
+  </div>
+<app-footer></app-footer>

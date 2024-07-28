@@ -1,0 +1,148 @@
+
+
+  /* Container */
+  .registration-container {
+    font-family: 'Arial', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+  }
+
+  /* Header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+  }
+
+  header .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  header nav ul {
+    list-style: none;
+    display: flex;
+  }
+
+  header nav ul li {
+    margin-right: 20px;
+  }
+
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  header nav ul li a:hover {
+    text-decoration: underline;
+  }
+
+  /* Form Container */
+  .form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+
+  .form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .form-group input {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .button-group .btn-submit,
+  .button-group .btn-reset {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .button-group .btn-submit {
+    background-color: #4CAF50;
+    color: #fff;
+  }
+
+  .button-group .btn-reset {
+    background-color: #f44336;
+    color: #fff;
+  }
+
+  /* Footer */
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 20px;
+  }
+
+  footer .footer-logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  footer .address {
+    flex: 1;
+    text-align: center;
+  }
+
+  footer .affiliation {
+    text-align: right;
+  }
+
+  footer .logos {
+    display: flex;
+    gap: 10px;
+  }
+
+  footer .social-media {
+    display: flex;
+    gap: 10px;
+  }
+
+  footer .social-media a {
+    color: #fff;
+    font-size: 20px;
+  }
+
+  footer .copyright {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+  }

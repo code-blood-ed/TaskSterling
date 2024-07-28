@@ -1,0 +1,95 @@
+<div class="">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+        <a class="navbar-brand mx-3" href="#">
+          <img src="{{imgSrc}}" width="40" height="40" alt="" >
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" routerLink='/staff'>Staff Home Page</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="aboutdep">About their department</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="topper">Department Toppers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/">Logout</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+<body>
+  
+  
+  <main>
+    <div class="links row">
+        <div class="col-6">
+            <a routerLink="/staff/attendance" class="link">Click Here for Attendance Entry</a>
+        </div>
+        <div class="col-6">
+            <a routerLink="/staff/marksentry" class="link">Click Here for Marks Entry</a>
+        </div>  
+    </div>
+
+    <div class="row" style="width: 1989px;">
+
+        <div class="col ml-5">
+
+            <div class="">
+                <div class="col-lg-12 col-xl-8">
+                    <div class="card m-b-30">
+                        <div class="card-header">                                
+                            <h5 class="card-title mb-0">Head Count</h5>
+                        </div>
+                        <div class="card-body">                                
+                            <div class="row align-items-center">
+                                <div class="col-6 col-lg-3">
+                                    <div class="border-primary border rounded text-center py-3 mb-3">
+                                        <h5 class="card-title text-primary mb-1">4000</h5>
+                                        <p class="text-primary mb-0 mx-2">Students</p>
+                                    </div>
+                                    <div class="border-success border rounded text-center py-3 mb-3">
+                                        <h5 class="card-title text-success mb-1">567</h5>
+                                        <p class="text-success mb-0 mx-2">Teaching Staffs</p>
+                                    </div>
+                                    <div class="border-warning border rounded text-center py-3">
+                                        <h5 class="card-title text-warning mb-1">754</h5>
+                                        <p class="text-warning mb-0 mx-2">Non-Teaching Staffs</p>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-lg-9">
+                                    <p>Students <span class="float-right">55%</span></p>
+                                    <div class="progress mb-3" style="height: 5px;">
+                                      <div class="progress-bar" role="progressbar" style="width: 55%;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <p>Teaching Staffs <span class="float-right">20%</span></p>
+                                    <div class="progress mb-3" style="height: 5px;">
+                                      <div class="progress-bar bg-success" role="progressbar" style="width: 20%;" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <p>Non-Teaching Staffs <span class="float-right">25%</span></p>
+                                    <div class="progress mb-3" style="height: 5px;">
+                                      <div class="progress-bar bg-warning" role="progressbar" style="width: 25%;" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        </div>
+    </div>
+
+
+
+
+</main>
+</body>
+<router-outlet></router-outlet>
+<app-footer></app-footer>

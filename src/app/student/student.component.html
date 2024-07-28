@@ -1,0 +1,83 @@
+<div class="">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+        <a class="navbar-brand mx-3" href="#">
+          <img src="{{imgSrc}}" width="40" height="40" alt="" >
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" routerLink='/student'>Student Home Page</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="studentabt">About their department</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="studtopper">Department Toppers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/">Logout</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+<body>
+    <header>
+    </header>
+    <main>
+        <section class="section about">
+            <h2>About HOD / Staff / and Department Subjects</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod dolorum saepe assumenda amet deleniti veniam, sunt cumque totam cum, accusantium pariatur libero iste expedita, suscipit unde nam minima. Quaerat sunt ea nobis soluta minus totam neque omnis molestiae, ipsa quo distinctio reprehenderit, aspernatur accusantium tenetur fugit, cumque repellat a optio quasi doloremque? Voluptates, aliquam. At animi quod error aliquam eaque sapiente necessitatibus inventore, nostrum soluta, dolores ratione cupiditate tenetur consequatur nobis placeat delectus saepe officiis hic quaerat! Autem at, architecto similique eos exercitationem voluptatem reprehenderit mollitia commodi amet ratione, quasi, culpa earum magni laudantium quidem quae animi velit omnis consequuntur reiciendis sapiente fugit quaerat cum? Expedita illum mollitia minima repellendus aperiam. Doloremque dolores alias deserunt qui iste tenetur debitis ipsam voluptatem minus excepturi eos tempora obcaecati provident, earum, consectetur magnam dolorem voluptatibus aperiam doloribus. In veritatis maxime ipsum id quidem, dolorem laborum et sed iste ullam corrupti numquam eos, ducimus provident. Sapiente cumque illum architecto et incidunt neque ullam. Blanditiis, delectus. Tempora et consequuntur ab perferendis ipsa quia ipsam quas, repudiandae reprehenderit illum neque sunt, corporis provident saepe similique nobis exercitationem quo. Quae reprehenderit, enim aspernatur aperiam magnam explicabo neque, perferendis, autem voluptatibus accusamus iste ut quasi veritatis. Iste voluptates minus ad ullam obcaecati labore eum quas laudantium velit. Voluptate laudantium nemo beatae. Molestias quod officiis asperiores nisi sunt fuga reiciendis sit nihil hic ratione commodi ducimus earum odit sapiente corporis quo vero neque perferendis repellat a, at culpa dolores. Error atque omnis minima culpa deserunt impedit cumque laborum. Delectus magnam molestias soluta asperiores cupiditate facilis qui. Dolor sit ex molestias id itaque, facere nobis harum veniam quaerat iure nemo molestiae voluptate modi vero amet aspernatur, quisquam pariatur. Vel dolore nulla optio assumenda a est harum enim ex sit et maxime, doloremque dicta reiciendis aliquid, tempora quae libero aut officiis.</p>
+            </section>
+        <section class="section results">
+            <h2>Current Semester Results</h2>
+
+            <div class="col-6 col-lg-9">
+                <p>Sub 1 <span class="float-right">55%</span></p>
+                <div class="progress mb-3" style="height: 5px;">
+                  <div class="progress-bar" role="progressbar" style="width: 55%;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <p>Sub 2 <span class="float-right">60%</span></p>
+                <div class="progress mb-3" style="height: 5px;">
+                  <div class="progress-bar bg-success" role="progressbar" style="width: 60%;" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <p>Sub 3 <span class="float-right">75%</span></p>
+                <div class="progress mb-3" style="height: 5px;">
+                  <div class="progress-bar bg-warning" role="progressbar" style="width: 75%;" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <p>Sub 4 <span class="float-right">87%</span></p>
+                <div class="progress" style="height: 5px;">
+                  <div class="progress-bar bg-info" role="progressbar" style="width: 87%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+
+
+        </section>
+        <section class="section grid">
+            <div class="grid-item">
+                <a href=""><h3>Past Results</h3></a>
+            </div>
+            <div class="grid-item">
+                <a href=""><h3>Fees Details</h3></a>
+            </div>
+        </section>
+        <section class="section grid">
+            <div class="grid-item">
+                <a href=""><h3>Assignment Topics / Uploads</h3></a>
+            </div>
+            <div class="grid-item">
+                <a href=""><h3>Queries / Reviews</h3></a>
+            </div>
+        </section>
+        <section class="section">
+            <a href=""><h2>Online Fees Payment Link</h2></a>
+        </section>
+    </main>
+    <footer>
+    </footer>
+</body>
+<router-outlet></router-outlet>
+<app-footer></app-footer>
